@@ -1,0 +1,213 @@
+* {
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* height: 9000px; */
+    /* border: solid; */
+    background-color: #ADD8E6;
+    height: auto;
+    /* width: 990px; */
+
+
+}
+
+header {
+    height: 100px;
+    background-color: #4CAF50; /* Background color for the navigation bar */
+    padding: 20px;
+}
+
+h1{
+    text-size-adjust: 79px;
+}
+
+
+.bytemaster {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.main-statement{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+a {
+    padding: 80px;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    color: aliceblue;
+}
+
+.navigation-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-color: #45a049; */
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 30px; /* Space between navigation items */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white; /* White text color for the links */
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #45a049; /* Hover effect */
+}
+
+
+
+main {
+    height: 570px;
+    width: auto;
+    text-align: center;
+}
+
+.box1, .box2 {
+    display: inline-block;
+    vertical-align: top;
+    /* border: solid; */
+    width: auto;
+    /* width: 45%; Ensure both boxes have the same width */
+    height: 300px; /* Set equal height for both boxes */
+    margin: 10px;
+    box-sizing: border-box;
+}
+.box1-button{
+    margin-top: 20px;
+}
+
+pre{
+    font-family: Arial, sans-serif;
+}
+.box1 {
+    padding: 20px;
+}
+
+.box2 {
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-right: 0px;
+    height: auto;
+    width: auto;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+#home-image {
+    width: auto; /* Ensure the image takes up the full width of the box */
+    height: 100%; /* Scale the image to fit the box height */
+    object-fit: cover; /* Ensure the image covers the box without distortion */
+    margin-top: 0%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* size: 20%; */
+}
+.recommend-container {
+    text-align: center; /* Centers the divs horizontally */
+    margin-top: 20px;
+}
+
+.recommend-div {
+    display: inline-block; /* Makes the divs inline to display horizontally */
+    width: auto; /* Each div takes up 30% of the container's width */
+    height: 50%;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin: 10px;
+    border: 1px solid #4CAF50; /* Adds a border around the div */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow effect */
+    border-radius: 5px; /* Optional: adds rounded corners */
+    background-color: #f9f9f9; /* Optional: background color */
+    vertical-align: top; /* Aligns divs to the top to avoid uneven alignment */
+}
+
+.recommend-image {
+    width: auto; /* Adjusts the image width */
+    height: 100px; /* Maintains the image's aspect ratio */
+    display: block; /* Displays the image as a block to center easily */
+    margin: 0 auto 10px auto; /* Centers the image inside the div */
+}
+
+.recommend-div p {
+    font-size: 16px;
+    color: #333;
+    /* margin-top: 30px; */
+    /* margin-bottom: 0px; */
+    text-align: start;
+    /* padding-top: 50px; */
+    /* padding-bottom: 0px; */
+}
+
+img{
+    height: 50px;
+    margin-top: 60px;
+}
+.recommed-div a{
+    height: 60px;
+}
+footer {
+    margin-top: 500px;
+    background-color: #333;
+    text-align: left;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    height: auto;
+    width: auto;
+}
+.feedback-tittle{
+    display: block;
+    margin-top: 20px;
+
+}
+.feedback-place{
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 8px;    
+}
+.feedback-place:hover{
+    /* opacity: 0.7; */
+    background-color: #c8ecf8;
+}

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4CAF50; /* Background color for the navigation bar */
+    padding: 20px;
+}
+
+.bytemaster {
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.bytemaster a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 30px; /* Space between navigation items */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white; /* White text color for the links */
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #45a049; /* Hover effect */
+}
+
